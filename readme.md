@@ -14,8 +14,12 @@ _Hello!_
 
 ```mermaid
 graph LR;
+
 	%% Жизненный цикл файлов в GIT
+
 	untracked -- "git add" --> staged;
+
 	staged -- "commit" --> tracked/comitted;
+
 	%% A --> B;
 ```
